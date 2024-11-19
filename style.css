@@ -1,0 +1,91 @@
+body {
+  display: grid;
+  margin: 0;
+  justify-content: center;
+  align-items: start;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F9FAFB;
+}
+
+.container-body {
+  display: grid;
+  margin-top: 70px;
+  align-items: center;
+  justify-items: center;
+}
+
+.text-body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 680px;
+  color: #6C727F;
+  margin-bottom: 60px;
+}
+.card-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-radius: 14px;
+  width: 520px;
+  height: 220px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.form-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.text-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  margin: 28px;
+}
+
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 470px;
+  height: 55px;
+  border-color: #E5E7EB;
+  background-color: #F9FAFB;
+  border-style:double;
+  border-radius: 14px;
+
+}
+
+.boton-submit {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 470px;
+  height: 55px;
+  border-style: hidden;
+  border-radius: 8px;
+  background-color: #284BCE;
+  margin: 24px 0px;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6C727F;
+  font-size: 14px;
+}
